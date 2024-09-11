@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorias - EcoHouse</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/images/logo.png" alt="Logo EcoHouse" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Inicial</a></li>
+                    <li class="nav-item"><a class="nav-link" href="categorias.html">Categorias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/assets/pages/contato.html">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/assets/pages/produto.html"><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Página de Categorias -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Filtros Laterais -->
+            <aside class="col-md-3">
+                <h4>Filtros</h4>
+                <form>
+                    <div class="form-group">
+                        <label for="priceRange">Faixa de Preço</label>
+                        <select class="form-control" id="priceRange">
+                            <option>Até R$50</option>
+                            <option>R$50 - R$100</option>
+                            <option>R$100 - R$200</option>
+                            <option>Acima de R$200</option>
+                        </select>
+                    </div>
+
+                </form>
+            </aside>
+            
+            <!-- Produtos -->
+            <div class="col-md-9">
+                <div class="row">
+                    <!-- Xícara de Bambu -->
+                    <div class="col-md-4 product-card">
+                        <div class="card">
+                            <img src="/assets/images/xicara.png" class="card-img-top" alt="Xícara de Bambu">
+                            <div class="card-body">
+                                <h5 class="card-title">Xícara de bambu</h5>
+                                <p class="card-text">Xícara sustentável produzida em bambu, ideal para aquele cafezinho da tarde com amigos.</p>
+                                <p class="card-text"><strong>R$ 99,90</strong></p>
+                                <a href="produto.html?id=1" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kit de Cozinha -->
+                    <div class="col-md-4 product-card">
+                        <div class="card">
+                            <img src="/assets/images/kit-cozinha.png" class="card-img-top" alt="Kit de Cozinha">
+                            <div class="card-body">
+                                <h5 class="card-title">Kit de Cozinha</h5>
+                                <p class="card-text">Conjunto sustentável e elegante de utensílios essenciais, perfeito para cozinhar com consciência ambiental.</p>
+                                <p class="card-text"><strong>R$ 149,90</strong></p>
+                                <a href="produto.html?id=2" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Prato Sustentável -->
+                    <div class="col-md-4 product-card">
+                        <div class="card">
+                            <img src="/assets/images/prato.png" class="card-img-top" alt="Prato Sustentável">
+                            <div class="card-body">
+                                <h5 class="card-title">Prato Sustentável</h5>
+                                <p class="card-text">Prato de Madeira Sustentável: Ideal para uma refeição com estilo e respeito ao meio ambiente.</p>
+                                <p class="card-text"><strong>R$ 79,90</strong></p>
+                                <a href="produto.html?id=3" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kit de Banheiro -->
+                    <div class="col-md-4 product-card">
+                        <div class="card">
+                            <img src="/assets/images/kit-banheiro.png" class="card-img-top" alt="Kit de Banheiro Sustentável">
+                            <div class="card-body">
+                                <h5 class="card-title">Kit de Banheiro</h5>
+                                <p class="card-text">Kit de Banheiro Sustentável: Inclui escova de bambu, porta-escova e dispenser de sabão, tudo feito com materiais ecológicos.</p>
+                                <p class="card-text"><strong>R$ 129,90</strong></p>
+                                <a href="produto.html?id=4" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Esponja Ecológica -->
+                    <div class="col-md-4 product-card">
+                        <div class="card">
+                            <img src="/assets/images/esponja.png" class="card-img-top" alt="Esponja Ecológica Natural">
+                            <div class="card-body">
+                                <h5 class="card-title">Esponja Ecológica Natural</h5>
+                                <p class="card-text">Esponja Natural para o Corpo: Feita de materiais 100% biodegradáveis, revitalizante, cuidando da sua pele de forma sustentável.</p>
+                                <p class="card-text"><strong>R$ 29,90</strong></p>
+                                <a href="produto.html?id=5" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Escova Capilar de Madeira -->
+                    <div class="col-md-4 product-card">
+                        <div class="card">
+                            <img src="/assets/images/escova.png" class="card-img-top" alt="Escova Capilar de Madeira">
+                            <div class="card-body">
+                                <h5 class="card-title">Escova Capilar de Madeira</h5>
+                                <p class="card-text">Escova Capilar de Madeira: Ideal para desembaraçar e cuidar dos fios, feita com madeira sustentável para um toque natural e eficaz.</p>
+                                <p class="card-text"><strong>R$ 59,90</strong></p>
+                                <a href="produto.html?id=6" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Porta Copo de Cortiça -->
+                    <div class="col-md-4 product-card">
+                        <div class="card">
+                            <img src="/assets/images/porta-copo.png" class="card-img-top" alt="Porta Copo de Cortiça">
+                            <div class="card-body">
+                                <h5 class="card-title">Kit Porta Copo de Cortiça</h5>
+                                <p class="card-text">Porta-Copos de Cortiça: Protege suas superfícies com elegância, feito de cortiça natural e sustentável para um toque ecológico.</p>
+                                <p class="card-text"><strong>R$ 59,90</strong></p>
+                                <a href="produto.html?id=7" class="btn btn-primary">
+                                <a href="produto.html?id=7" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                        <!-- Vela de Cera de Soja -->
+                        <div class="col-md-4 product-card">
+                            <div class="card">
+                                <img src="/assets/images/vela.png" class="card-img-top" alt="Vela de Cera de Soja">
+                                <div class="card-body">
+                                    <h5 class="card-title">Vela de Cera de Soja</h5>
+                                    <p class="card-text">Vela feita com cera de soja, uma alternativa ecológica às velas tradicionais. Perfeita para criar um ambiente acolhedor e sustentável.</p>
+                                    <p class="card-text"><strong>R$ 39,90</strong></p>
+                                    <a href="produto.html?id=8" class="btn btn-primary">Adicionar ao Carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Footer -->
+        <footer class="bg-light text-center py-4">
+            <p>&copy; 2024 EcoHouse. Todos os direitos reservados.</p>
+        </footer>
+    
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    </html>
+    
